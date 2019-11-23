@@ -1,0 +1,106 @@
+	body {
+	background-image: url("https://www.washingtonpost.com/resizer/s9dXcpyrfYDGC08mNtftRSmxgqo=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/6BQMKAI5MFHC5H7TR2TXH6BNPY.jpg"); 
+	}
+	h4{
+	text-align: center;
+	padding: 20;
+	font-size: 38px;
+	background-color: rgba(60,45,45, 0.5);
+	border-radius: 99%;
+	text-shadow: 2px 2px green;
+	font-family: 'Teko', sans-serif;
+	-webkit-animation-name: anim; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+     animation-name: anim;
+     animation-duration: 4s; 
+	 animation-iteration-count: 2;
+	 #animation-delay: 1s;
+	}
+	@keyframes anim {
+		from {
+		background-color: green;}
+		to {
+		background-color: yellow;}
+	}
+
+	
+	p{
+	text-align: justify;
+	
+	}
+	nav {
+	text-align: left;
+	background-color: hsl(120,80%,30%);
+	border-radius : 30px;
+	background: linear-gradient(70deg,hsl(190,60%,30%),hsl(120,60%,30%),yellow);
+	
+	
+        }
+		li:hover{
+			transform: scale(1.1);
+			color: blue;
+		}
+		
+	.img{
+		display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+	}
+	
+	.links{
+		text-align: center;
+		color: yellow;
+		font-size: 20px;
+	}
+	.links a:hover{
+		transform: scale(1.3);
+			color: green;
+	}
+
+	}
+	#thumbnail{
+		box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 8px 6px rgba(0,0,0,0.23);
+		
+	}
+	.fullCard {
+    width: 200px 255px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 4% 30%;
+    padding: 100px;
+	background-image: url('http://www.mvnucougars.com/images/2017-18/SB_2018-Softball_In_Dirt.jpg');
+	
+	
+	
+	
+	
+  }
+  .cardContent {
+    padding: 10px;
+  }
+  .cardText {
+    margin-bottom: 30px;
+  }
+  
+  footer{
+  padding-left: 20%;
+  }
+	.center {
+    position: relative;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 3px;
+    box-shadow: 10px 10px 10px 10px green;
+	transform: translate(80px, 30px);
+  }
+  .center p:hover{
+	  color: green;
+	  transform: scale(1.5);
+  }
